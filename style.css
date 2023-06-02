@@ -1,0 +1,75 @@
+.Calculatrice
+{
+    display: flex;
+
+}
+
+.Boutone
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+#nombre1
+{
+    width: 50%;
+    height: 5vh;
+    border: 3px solid #1D4B8F;
+    border-radius:5px;
+    font-size: 24px;
+}
+
+
+#nombre2
+{
+    width: 50%;
+    height: 5vh;
+    margin-left:10px ;
+    border: 3px solid #1D4B8F;
+    border-radius:5px;
+    font-size: 24px;
+
+}
+
+#egale
+{
+    width: 20%;
+    height: 6vh;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #4B916F;
+    border: 1px solid #4B916F;
+    border-radius:9px ;
+    margin-left:10px ;
+}
+
+#egale:hover{
+    background-color: #1D382B;
+    border: 1px solid #1D382B;
+    color: white;
+}
+
+#boutonCalcul
+{
+    width: 20%;
+    height: 5.5vh;
+    font-size: 24px;
+    margin-left:10px ;
+    border-radius:5px;
+    border: 3px solid #1C8072;
+
+}
+
+.reponse
+{
+    border: 2px solid black;
+    border-radius: 7px;
+    width:10%;
+    height:5vh;
+    margin-left:20px ;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
